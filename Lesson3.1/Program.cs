@@ -16,7 +16,7 @@ string firstName = "Manukyan";
 string age = "21";
 string ToLearn = "HAPH"; 
 
-Console.WriteLine($"Es {lastName} {firstName}-n em {age} tarekan sovorum em {ToLearn} hamalsaranum ");
+Console.WriteLine($"Es {lastName} {firstName}-n em {age} tarekan sovorum em {ToLearn}-um ");
 Console.ReadKey();
 
 //3.1
