@@ -11,7 +11,7 @@ Console.WriteLine($"{e}+{d}+{c}+{b} = {e + d + c + b}");
 Console.ReadKey();
 
 //2
-string lastName = "Syuzanna";
+string lastName = "Syuzanna"; 
 string firstName = "Manukyan";
 string age = "21";
 string ToLearn = "HAPH"; 
