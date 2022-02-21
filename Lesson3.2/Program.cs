@@ -98,7 +98,7 @@ if (b > c)
 }
 Console.WriteLine($"{a},{b},{c}");
 
-51
+//51
 bool p = false;
 int b, l, g;
 int t = int.Parse(Console.ReadLine());
@@ -115,7 +115,7 @@ if (b == l)
 else
     Console.WriteLine($"{p} {t}");
 
-52
+//52
 bool p = false;
 int b, l, g;
 int t = int.Parse(Console.ReadLine());
@@ -133,7 +133,7 @@ if (b == g | b == l | l == g)
 else
     Console.WriteLine($"{p}");
 
-53
+//53
 decimal b, f, l, g, m;
 const decimal k = 225;
 decimal t = decimal.Parse(Console.ReadLine());
@@ -156,7 +156,7 @@ else
     Console.WriteLine(m);
 }
 
-54
+//54
 int b, l, g;
 int t = int.Parse(Console.ReadLine());
 
@@ -181,7 +181,7 @@ else
         Console.WriteLine(l);
 }
 
-55
+//55
 int b, l, g;
 int t = int.Parse(Console.ReadLine());
 
@@ -206,7 +206,7 @@ else
         Console.WriteLine(l);
 }
 
-56
+//56
 decimal b, f, l, g, m;
 decimal t = decimal.Parse(Console.ReadLine());
 f = t;
@@ -224,7 +224,7 @@ if (b > g)
 else
     Console.WriteLine(t);
 
-57--
+//57--
 int l, f, b, g;
 decimal k;
 int t = int.Parse(Console.ReadLine());
@@ -246,7 +246,7 @@ else
     Console.WriteLine(k);
 }
 
-58
+//58
 char f;
 int l, g, m;
 int t = int.Parse(Console.ReadLine());
@@ -260,7 +260,7 @@ if (g + l < 5)
 else
     Console.WriteLine(f = 'b');
 
-59
+//59
 int l, f, b, g;
 int t = int.Parse(Console.ReadLine());
 b = t % 10;
@@ -289,7 +289,7 @@ if (g < l)
 }
 Console.WriteLine($"{b} {g} {l}");
 
-60
+//60
 int l, f, b, g;
 int t = int.Parse(Console.ReadLine());
 b = t % 10;
