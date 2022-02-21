@@ -13,8 +13,10 @@ Console.ReadKey();
 //2
 string lastName = "Syuzanna";
 string firstName = "Manukyan";
+string age = "21";
+string ToLearn = "HAPH"; 
 
-Console.WriteLine($"Es {lastName} {firstName}-n em ");
+Console.WriteLine($"Es {lastName} {firstName}-n em {age} tarekan sovorum em {ToLearn} hamalsaranum ");
 Console.ReadKey();
 
 //3.1
@@ -94,7 +96,7 @@ while (a % 10 != 0)
     if (i > 1)
     {
         m = a * 100 + t;
-        Console.WriteLine($"{m}");
+        Console.WriteLine($"{m}"); 
     }
     a /= 10;
     i++;
