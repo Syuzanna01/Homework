@@ -77,4 +77,26 @@ if (c < d)
     d = k;
 }
 Console.WriteLine($"{a},{b},{c},{d}");
+
+//Alisa
+int a = int.Parse(Console.ReadLine());
+int i = 0, k, t = 0, m;
+while (a % 10 != 0)
+{
+    k = a % 10;
+    if (i == 1)
+    {
+        if (k >= 5)
+            t = 100;
+        else
+            t = 0;
+    }
+    if (i > 1)
+    {
+        m = a * 100 + t;
+        Console.WriteLine($"{m}");
+    }
+    a /= 10;
+    i++;
+}
 Console.ReadKey();
