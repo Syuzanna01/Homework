@@ -6,7 +6,7 @@ for (int i = 1; i <= n; i++)
     if ((n % i) == 0)
         k += i;
 }
-Console.WriteLine(k); 1 2 4 5 10 20
+Console.WriteLine(k);
 
 //152
 int k = 1;
@@ -40,7 +40,7 @@ Console.WriteLine(k);
 
 //155
 int k = 0;
-for (int i = 1; i <= 99; i++)
+for (int i = 10; i <= 99; i++)
 {
     if ((i % 3) == 0)
         k += i;
@@ -49,7 +49,7 @@ Console.WriteLine(k);
 
 //156
 int k = 0;
-for (int i = 1; i <= 99; i++)
+for (int i = 10; i <= 99; i++)
 {
     if ((i % 3) == 0 & (i % 5) == 0)
         k += i;
@@ -58,7 +58,7 @@ Console.WriteLine(k);
 
 //157
 int k = 0;
-for (int i = 1; i <= 999; i++)
+for (int i = 100; i <= 999; i++)
 {
     if ((i % 5) != 0)
         k += i;
@@ -67,7 +67,7 @@ Console.WriteLine(k);
 
 //158
 int k = 1;
-for (int i = 1; i <= 999; i++)
+for (int i = 100; i <= 999; i++)
 {
     if ((i % 3) != 0 & (i % 2) != 0)
         k *= i;
@@ -83,7 +83,7 @@ for (int i = 800; i <= 999; i++)
 }
 Console.WriteLine(k);
 
-160
+//160
 for (int i = 100; i <= 999; i++)
 {
     if (Math.Sqrt(i * 16) % 1 == 0)
@@ -130,7 +130,6 @@ for (int i = 100; i < 999; i++)
     {
         Console.WriteLine(i);
         break;
-
     }
 }
 
@@ -171,7 +170,6 @@ for (int i = 1; i < n; i++)
         Console.WriteLine(t);
     }
 }
-
 //191
 double x = 3, sum = 0;
 double n = double.Parse(Console.ReadLine());
@@ -209,7 +207,7 @@ for (int i = 1; i <= n; i++)
 Console.WriteLine(sun);
 
 //195
-double sum = 1, sun = 1;  
+double sum = 1, sun = 1;
 int n = int.Parse(Console.ReadLine());
 for (int i = 1; i <= n;)
 {
@@ -218,4 +216,27 @@ for (int i = 1; i <= n;)
 }
 Console.WriteLine(sun);
 
+//196
+double sum = 1, sun = 0;
+int n = int.Parse(Console.ReadLine());
+for (int i = 1; i <= n; i++)
+{
+    sum *= i;
+    if (i % 2 == 1)
+        sun += Math.Pow(n, i) / sum;
 
+}
+Console.WriteLine(sun);
+
+//197
+double sum = 1, sun = 1;
+int n = int.Parse(Console.ReadLine());
+for (int i = 2; i <= n; i++)
+{
+    sum *= i;
+    if (i % 2 == 0)
+        sun += Math.Pow(n, i) / sum;
+}
+Console.WriteLine(sun);
+
+Console.ReadKey();
