@@ -218,8 +218,6 @@ for (int i = 0; i < a.Length; i++)
     }
 Console.WriteLine(Math.Sqrt(b / c));
 
-cposity//singlton
-
 //231
 int[] a = new int[5];
 int sum = 0, i = 0;
