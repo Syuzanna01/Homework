@@ -294,7 +294,7 @@ namespace Lesson
             int[] arr = new int[a];
             arr[0] = 0;
             arr[1] = 1;
-            for (int i = 2; i < arr.Length; i++)
+            for (int i = 2; i < arr.Length; i++) 
                 arr[i] = arr[i - 1] + arr[i - 2];
             for (int i = 0; i < a; i++)
                 Console.Write($"{arr[i]} ");
