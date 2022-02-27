@@ -1,4 +1,4 @@
-﻿1
+﻿//1
 using System;
 namespace Lesson
 {
@@ -18,7 +18,7 @@ namespace Lesson
     }
 }
 
-2
+//2
 using System;
 namespace Lesson
 {
@@ -39,7 +39,7 @@ namespace Lesson
     }
 }
 
-3
+//3
 using System;
 namespace Lesson
 {
@@ -60,7 +60,7 @@ namespace Lesson
     }
 }
 
-4
+//4
 using System;
 namespace Lesson
 {
@@ -85,7 +85,7 @@ namespace Lesson
     }
 }
 
-5
+//5
 using System;
 namespace Lesson
 {
@@ -112,7 +112,7 @@ namespace Lesson
     }
 }
 
-6
+//6
 using System;
 namespace Lesson
 {
@@ -138,7 +138,7 @@ namespace Lesson
     }
 }
 
-7
+//7
 using System;
 namespace Lesson
 {
@@ -161,7 +161,7 @@ namespace Lesson
     }
 }
 
-8
+//8
 using System;
 namespace Lesson
 {
@@ -189,7 +189,7 @@ namespace Lesson
     }
 }
 
-9
+//9
 using System;
 namespace Lesson
 {
@@ -218,7 +218,7 @@ namespace Lesson
     }
 }
 
-10
+//10
 using System;
 namespace Lesson
 {
@@ -245,7 +245,7 @@ namespace Lesson
     }
 }
 
-11
+//11
 using System;
 namespace Lesson
 {
@@ -272,7 +272,7 @@ namespace Lesson
     }
 }
 
-12
+//12
 using System;
 namespace Lesson
 {
@@ -294,7 +294,7 @@ namespace Lesson
             int[] arr = new int[a];
             arr[0] = 0;
             arr[1] = 1;
-            for (int i = 2; i < arr.Length; i++) 
+            for (int i = 2; i < arr.Length; i++)
                 arr[i] = arr[i - 1] + arr[i - 2];
             for (int i = 0; i < a; i++)
                 Console.Write($"{arr[i]} ");
