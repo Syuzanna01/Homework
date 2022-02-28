@@ -345,9 +345,8 @@ namespace Lesson
             int[] arrr = { 15, 464, -5, -56, 0, 4, 3, -65, 78 };
             int[] arr = { foo(), MinValue(), MaxValue(), Max(arrr), Min(arrr) };
             for (int i = 0; i < arr.Length; i++)
-            {
                 Console.WriteLine(arr[i]);
-            }
+
             Console.ReadKey();
         }
 
@@ -367,7 +366,7 @@ namespace Lesson
         }
         static int Min(int[] arr1)
         {
-            return arr1.Min(); 
+            return arr1.Min();
         }
         static int Max(int[] arr1)
         {
