@@ -360,7 +360,6 @@ namespace Lesson
         static int MinValue()
         {
             return int.MinValue;
-
         }
         static int MaxValue()
         {
