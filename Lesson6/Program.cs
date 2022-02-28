@@ -306,3 +306,77 @@ namespace Lesson
         }
     }
 }
+
+
+//
+using System;
+namespace Lesson
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine(foo());
+            Console.ReadKey();
+        }
+
+        static int foo()
+        {
+            int a = 2022;
+            Bar();
+            return a;
+        }
+
+        static void Bar()
+        {
+            Console.Write("Hi ");
+        }
+    }
+}
+
+//
+using System;
+namespace Lesson
+{
+    class Program
+    {
+        static void Main()
+        {
+            int[] arrr = { 15, 464, -5, -56, 0, 4, 3, -65, 78 };
+            int[] arr = { foo(), MinValue(), MaxValue(), Max(arrr), Min(arrr) };
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
+            Console.ReadKey();
+        }
+
+        static int foo()
+        {
+            int a = 2022;
+            Bar();
+            return a;
+        }
+        static int MinValue()
+        {
+            return int.MinValue;
+
+        }
+        static int MaxValue()
+        {
+            return int.MaxValue;
+        }
+        static int Min(int[] arr1)
+        {
+            return arr1.Min();
+        }
+        static int Max(int[] arr1)
+        {
+            return arr1.Max();
+        }
+        static void Bar()
+        {
+            Console.Write("Hi ");
+        }
+    }
+}
