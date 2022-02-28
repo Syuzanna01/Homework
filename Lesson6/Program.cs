@@ -368,7 +368,7 @@ namespace Lesson
         }
         static int Min(int[] arr1)
         {
-            return arr1.Min();
+            return arr1.Min(); 
         }
         static int Max(int[] arr1)
         {
