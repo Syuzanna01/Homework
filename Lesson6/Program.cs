@@ -388,7 +388,7 @@ namespace Lesson
         static void Main()
         {
             int a = 10, b = 5, c = 6;
-            foo(a, b);
+            foo(a, b,c);
         }
 
         static int foo(int a1, int b1)
