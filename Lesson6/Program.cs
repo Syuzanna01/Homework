@@ -352,7 +352,7 @@ namespace Lesson
 
         static int foo()
         {
-            int a = 2022;
+            int a = 2022; 
             Bar();
             return a;
         }
@@ -375,6 +375,33 @@ namespace Lesson
         static void Bar()
         {
             Console.Write("Hi ");
+        }
+    }
+}
+
+//
+using System;
+namespace Lesson
+{
+    class Program
+    {
+        static void Main()
+        {
+            int a = 10, b = 5, c = 6;
+            foo(a, b);
+        }
+
+        static int foo(int a1, int b1)
+        {
+            return a1 + b1;
+        }
+        static int foo(int a1, int b1, int c1)
+        {
+            return a1 + b1 + c1;
+        }
+        static int foo(int a1)
+        {
+            return a1;
         }
     }
 }
